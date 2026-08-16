@@ -1,0 +1,70 @@
+export const CUSTOMER_STATUSES = ["LEAD", "NEW", "ACTIVE", "RECURRING", "INACTIVE", "VIP"] as const;
+export const LEAD_SOURCES = [
+  "INSTAGRAM",
+  "TIKTOK",
+  "FACEBOOK",
+  "WHATSAPP",
+  "REFERRAL",
+  "GOOGLE",
+  "FLYER",
+  "WORD_OF_MOUTH",
+  "OTHER",
+] as const;
+export const CONTACT_METHODS = ["WHATSAPP", "PHONE", "EMAIL", "INSTAGRAM"] as const;
+export const VEHICLE_TYPES = [
+  "SEDAN",
+  "SUV",
+  "TRUCK",
+  "VAN",
+  "COUPE",
+  "CONVERTIBLE",
+  "MOTORCYCLE",
+  "OTHER",
+] as const;
+export const APPOINTMENT_STATUSES = [
+  "INQUIRY",
+  "QUOTED",
+  "BOOKED",
+  "CONFIRMED",
+  "IN_PROGRESS",
+  "COMPLETED",
+  "CANCELLED",
+  "NO_SHOW",
+] as const;
+export const PAYMENT_STATUSES = ["UNPAID", "PARTIAL", "PAID"] as const;
+export const PAYMENT_METHODS = ["CASH", "CARD", "BANK_TRANSFER", "WHATSAPP_PAY", "OTHER"] as const;
+export const EXPENSE_CATEGORIES = [
+  "CHEMICALS",
+  "EQUIPMENT",
+  "EQUIPMENT_MAINTENANCE",
+  "FUEL",
+  "TRANSPORTATION",
+  "MARKETING",
+  "ADVERTISING",
+  "SOFTWARE",
+  "PHONE",
+  "SUPPLIES",
+  "LABOR",
+  "INSURANCE",
+  "OTHER",
+] as const;
+export const SERVICE_CATEGORIES = ["BASIC", "STANDARD", "PREMIUM"] as const;
+export const LEAD_STATUSES = ["NEW", "CONTACTED", "QUOTED", "FOLLOW_UP", "BOOKED", "LOST", "CONVERTED"] as const;
+export const CAMPAIGN_PLATFORMS = ["INSTAGRAM", "TIKTOK", "FACEBOOK", "WHATSAPP", "GOOGLE", "FLYER", "OTHER"] as const;
+export const CONTENT_CATEGORIES = [
+  "BEFORE_AFTER",
+  "SATISFYING_CLEANING",
+  "EDUCATIONAL",
+  "TESTIMONIAL",
+  "BUSINESS_JOURNEY",
+  "BEHIND_THE_SCENES",
+  "PROMOTION",
+  "MAINTENANCE_TIPS",
+] as const;
+export const CONTENT_PLATFORMS = ["INSTAGRAM", "TIKTOK", "FACEBOOK"] as const;
+export const CONTENT_STATUSES = ["IDEA", "SCHEDULED", "PUBLISHED"] as const;
+export const INVENTORY_CATEGORIES = ["CHEMICALS", "EQUIPMENT", "SUPPLIES", "OTHER"] as const;
+export const RECURRING_FREQUENCIES = ["ONE_TIME", "BIWEEKLY", "MONTHLY", "CUSTOM"] as const;
+export const RECURRING_STATUSES = ["ACTIVE", "PAUSED", "CANCELLED"] as const;
+export const REVIEW_PLATFORMS = ["GOOGLE", "INSTAGRAM", "FACEBOOK", "WHATSAPP"] as const;
+export const REWARD_STATUSES = ["PENDING", "GIVEN", "NA"] as const;
